@@ -1,4 +1,4 @@
-# ACF Input Counter
+# ACF Input Counter & Progress Bar
 
 Supports ACF 5
 
