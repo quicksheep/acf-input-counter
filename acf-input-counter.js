@@ -36,7 +36,9 @@
 			}
 			var $value = e.$el.val();
 			var $length = $value.length;
-			e.$el.closest('.acf-input').find('.count').text($length);
+			e.$el.closest('.acf-input').find('.count').text($length);			
+			var $percentage = ($length / $max * 100);
+			e.$el.closest('.acf-input').find('.progress-bar').width($percentage + '%');
 		},
 		
 	});
