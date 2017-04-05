@@ -115,6 +115,9 @@
 			$display = str_replace('%%len%%', '<span class="count">'.$len.'</span>', $display);
 			$display = str_replace('%%max%%', $max, $display);
 			?>
+				<span class="progress-wrap">
+					<span class="progress-bar"></span>
+				</span>
 				<span class="char-count">
 					<?php
 						echo $display;
