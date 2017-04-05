@@ -1,6 +1,18 @@
 .acf-field .char-count {
-    display:        inline-block;
-    font-weight:    bold;
-    font-style:     italic;
-    margin-top:     .5em;
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 1em;
+}
+.acf-field .progress-wrap {
+    display: block;
+    margin-top: 1em;
+    height: 5px;
+    background: #ddd;
+}
+.acf-field .progress-bar {
+    display: block;
+    width: 0;
+    height: 5px;
+    background: #0073aa;
 }
